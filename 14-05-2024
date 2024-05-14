@@ -40,3 +40,14 @@ PyPy, Python within Python
 MicroPython, optimized python to run on microcontrollers
 
 
+to use python, u need:
+-editor: to write code
+-console: launch code and stop forcibly when required
+-debugger: launch step-by-step code, to inspect code at each moment of execution
+
+IDLE
+Integrated Development and Learning Environment
+
+Error Message:
+contains following
+-traceback
