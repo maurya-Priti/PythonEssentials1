@@ -1,0 +1,42 @@
+Python is Interpreted Language
+
+Python Goals:
+-easy and intuitive language
+-open source
+-understandable as plain english
+-suitable for everydat tasks
+
+Python rival
+-Perl
+-Ruby
+
+When python is not used:
+-in development of driver or graphic engine where implementation must be very close to low-level programming language (close-to-metal programming)
+-applications for mobile devices
+
+Python2 and Python3 are not compatible with each other, i.e. Python2 code cannot be run on Python3 run environment or vice-versa.
+However, newer versions of Python3 are backwarrd compatible.
+
+Python implementations
+-implementation refers to program or environment, which supports execition of programs written in Python language.
+-Cython is traditional implementation of Python, C programming language used to implement Python, (automatically translate Python code into C language code)
+        -It is easily coded but execution may be time consuming.
+-complex mathematical calculations can be done
+
+Other versions of Python implementation:
+Jython, Java implementation of Python
+        -large and complex systems written in Java can be integrated with Python to make it flexible using Jython 
+        -communicates with existing Java infrastructure 
+        -follows only Python2 standards, no support for Python3.
+
+PyPy, Python within Python
+      -represents environment which is written in Python like language, RPython(restricted Python)
+      -subset of Python
+      -it is not interpreted, instead it is translated into C program and then executed separately.
+      -useful when a new feature is to be tested.
+      -tool for people developing Python
+      -compatible with Python3 
+
+MicroPython, optimized python to run on microcontrollers
+
+
