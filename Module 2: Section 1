@@ -1,0 +1,53 @@
+A function (in this context) is a separate part of the computer code able to:
+
+    cause some effect (e.g., send text to the terminal, create a file, draw an image, play a sound, etc.); 
+    evaluate a value (e.g., the square root of a value or the length of a given text) and return it as the function's result; 
+
+
+What happens when Python encounters an invocation like this one below?
+
+function_name(argument)
+
+Let's see:
+
+First, Python checks if the name specified is legal (it browses its internal data in order to find an existing function of the name; if this search fails, Python aborts the code)
+second, Python checks if the function's requirements for the number of arguments allows you to invoke the function in this way (e.g., if a specific function demands exactly two arguments, any invocation delivering only one argument will be considered erroneous, and will abort the code's execution)
+third, Python leaves your code for a moment and jumps into the function you want to invoke; of course, it takes your argument(s) too and passes it/them to the function;
+fourth, the function executes its code, causes the desired effect (if any), evaluates the desired result(s) (if any) and finishes its task;
+finally, Python returns to your code (to the place just after the invocation) and resumes its execution.
+
+Python requires that there cannot be more than one instruction in a line.
+A line can be empty (i.e., it may contain no instruction at all) but it must not contain two, three or more instructions. This is strictly prohibited.
+Note: Python makes one exception to this rule ‒ it allows one instruction to spread across more than one line (which may be helpful when your code contains complex constructions).
+
+
+
+
+Summary:
+
+1. The print() function is a built-in function. 
+   It prints/outputs a specified message to the screen/console window.
+
+2. Built-in functions, contrary to user-defined functions, are always available and don't have to be imported. 
+   Python 3.8 comes with 69 built-in functions. You can find their full list provided in alphabetical order in the Python Standard Library.
+
+3. To call a function (this process is known as function invocation or function call), you need to use the function name followed by parentheses. 
+   You can pass arguments into a function by placing them inside the parentheses. 
+   You must separate arguments with a comma, e.g., print("Hello,", "world!"). 
+   An "empty" print() function outputs an empty line to the screen.
+
+4. Python strings are delimited with quotes, e.g., "I am a string" (double quotes), or 'I am a string, too' (single quotes).
+
+5. Computer programs are collections of instructions. 
+   An instruction is a command to perform a specific task when executed, e.g., to print a certain message to the screen.
+
+6. In Python strings the backslash (\) is a special character which announces that the next character has a different meaning, e.g., \n (the newline character) starts a new output line.
+
+7. Positional arguments are the ones whose meaning is dictated by their position, e.g., the second argument is outputted after the first, the third is outputted after the second, etc.
+
+8. Keyword arguments are the ones whose meaning is not dictated by their location, but by a special word (keyword) used to identify them.
+
+9. The end and sep parameters can be used for formatting the output of the print() function. 
+   The sep parameter specifies the separator between the outputted arguments, e.g., print("H", "E", "L", "L", "O", sep="-"), 
+   whereas the end parameter specifies what to print at the end of the print statement.
+
