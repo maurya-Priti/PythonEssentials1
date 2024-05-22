@@ -1,0 +1,14 @@
+1. The comparison (otherwise known as relational) operators are used to compare values. The table below illustrates how the comparison operators work, assuming that x = 0, y = 1, and z = 0:
+
+2. When you want to execute some code only if a certain condition is met, you can use a conditional statement:
+
+    a single if statement
+    a series of if statements
+    an if-else statement 
+    a series of if statements followed by an else, e.g.:
+        Each if is tested separately. The body of else is executed if the last if is False.
+
+The if-elif-else statement
+    If the condition for if is False, the program checks the conditions of the subsequent elif blocks - the first elif block that is True is executed. If all the conditions are False, the else block will be executed.
+
+Nested conditional statements
