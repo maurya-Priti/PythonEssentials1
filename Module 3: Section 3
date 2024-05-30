@@ -1,0 +1,38 @@
+Logic and Bit operations:
+
+1. Computer Logic:
+    Conjuction - and , combining two or more  conditions, all conditions must be fullfilled 
+    Disjunction - or , combining two or more conditions, atleast one condition must be fullfilled
+
+2. Python and logic:
+    TO express these logics in python, logical operatots are used.
+    -Conjuction: 'and' operator ('&')
+    -Disjunction: 'or' operator ('|')
+
+3. and operator: 
+  -binary operator
+  -lower priority than comparison operators
+
+4. or operator
+  -binary operator
+  -priority lower than and operator
+
+5. not operator:
+  -unary operator
+  -logical negation
+  -highest priority, same as unary + ,-
+
+6. Logical values- 0 ,1
+-0: reset, False
+-1: set, True
+
+7. Bitwise Operators:
+                      & (ampersand) ‒ bitwise conjunction;- both condition true for true result
+                      | (bar) ‒ bitwise disjunction;- atleast one condition true for true result
+                      ~ (tilde) ‒ bitwise negation;- if true then result is false, if false then result is true
+                      ^ (caret) ‒ bitwise exclusive or (xor).- if both operand is identical then, result is false
+
+
+
+
+
