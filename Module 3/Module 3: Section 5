@@ -1,0 +1,14 @@
+Bubble Sort Algorithm
+
+Sorting can be done in two ways:
+Increasing order
+Decreasing order
+
+Algorithm:
+Check adjacent elements in list and swap them if required, 
+continue checking and swapping elements till list is sorted,
+use swapped variable to keep track of whether swapping is done or not, swapped =True
+Initially assign swapped to value True:
+Run loop till swapped is true; (while swapped:), i.e. while True
+assign value of swapped to false inside for loop, and change swapped to True when swapping of elemets is done.
+
