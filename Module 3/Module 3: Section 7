@@ -1,0 +1,24 @@
+Advanced Operations on Lists:
+
+1. Lists in Lists
+
+2. List Comprehension
+
+Created on the fly, that is list is created during program executikn statically,
+squares = [x ** 2 for x in range(10)]
+
+3. Two dimensional Array
+
+board = []
+EMPTY=0
+for i in range(8):
+    row = [EMPTY for i in range(8)]
+    board.append(row)
+
+for i in board:
+    for j in i:
+        print(j, end=" ")
+    print()
+
+
+4. Multidimensinal Array:
