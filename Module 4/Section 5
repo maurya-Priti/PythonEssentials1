@@ -1,0 +1,24 @@
+Exceptions, Debuggung and Testing
+
+Exception:
+-used for rror handling
+-errors are the events that cause unexpected termination of program
+-if not handled properly, may result in bad user experience and even bad developer experience, as user might get frustated if program unexpectedly terminates.
+-if there is possibility of getting errors in any part of code, use try-except block
+
+Some common Errors:
+ValueError
+TypeError
+AttributeError
+SyntaxError
+ZerodivisionError
+
+As python is interpreted language, errors in thode part of the code will not be raised which do not undergo exceution paths.
+
+To avoid such errors, unit testing and debugging is required
+
+debugging- control the flow to program during its execution, identifying the state of variables, change their values on demand that is inspecting the variav=bles and their states
+
+another debugging method is ruck duck debugging.
+-talk to rubber duck by speaking , explain the code by speaking, you may eventually track bugs in code.
+unit testing can done by using pyrhon module named - unittest
